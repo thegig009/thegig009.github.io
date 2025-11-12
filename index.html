@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio นักศึกษา | GitHub.io</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Prompt', sans-serif;
+      background: #f6f8fa;
+      margin: 0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #1d3557, #457b9d);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #dbe4f0;
+    }
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1d3557;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all 0.3s;
+    }
+    nav a:hover {
+      background: #1d3557;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: #fff;
+      padding: 30px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+    }
+
+    h2 {
+      color: #e63946;
+      border-left: 6px solid #e63946;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #457b9d;
+    }
+
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+    .profile img {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border: 4px solid #457b9d;
+    }
+
+    a {
+      color: #1d3557;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 0.9em;
+    }
+
+    .projects li {
+      margin-bottom: 8px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portfolio นักศึกษา</h1>
+    <p>GitHub.io | Resume | Projects | Skills</p>
+  </header>
+
+  <nav>
+    <a href="#intro">แนะนำตัว</a>
+    <a href="#skills">ทักษะ</a>
+    <a href="#projects">ผลงาน</a>
+    <a href="#education">การศึกษา</a>
+    <a href="#activities">กิจกรรม</a>
+    <a href="#contact">ติดต่อ</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="intro">
+      <h2>1. แนะนำตัว (Introduction)</h2>
+      <div class="profile">
+        <img src="IMG_20251104_172903.jpg" alt="Profile Photo">
+        <div>
+          <p><strong>ชื่อ:</strong> นายรพีภัทร มาตย์ชู  (Rapeepat matchu)</p>
+          <p><strong>คณะ:</strong> วิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</p>
+          <p><strong>ปีการศึกษา:</strong> นักศึกษาปีที่ 2</p>
+          <p><strong>ความสนใจ:</strong> AI, Web Development, Data Science</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>2. ทักษะ (Skills)</h2>
+      <ul>
+        <li>Programming: Python,  HTML/CSS </li>
+        <li>AI & Data:  SQL, </li>
+        <li>Tools: Git, VS Code, Figma, Google Colab</li>
+        <li>Soft Skills: การสื่อสาร, การทำงานเป็นทีม, การแก้ปัญหา</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>3. ผลงาน (Projects / Portfolio)</h2>
+      <ul>
+        <li>พูดและนำเสนอในเวทีกลาง วันวิทยาศาสตร์ 2567 </li>
+        <li>MockUp Program</li>
+        <li>รางวัลชมชาย จากโครงการ StartUp</li>
+      </ul>
+      
+    </section>
+
+    <section id="education">
+      <h2>4. การศึกษา (Education)</h2>
+      <p>มหาวิทยาลัยราชภัฏอุดรธานี (2567–ปัจจุบัน)</p>
+      <p>คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</p>
+    </section>
+
+    <section id="activities">
+      <h2>5. กิจกรรมและผลงานอื่น ๆ (Activities)</h2>
+      <ul>
+        <li>มาอบรมเพื่อเขียนโปรแกรมทำ AI Chatbot</li>
+        <li>CSIT Sci Camp UDRU 2025 </li>
+        <li></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>6. ติดต่อ (Contact)</h2>
+      <p>📧 Email: loveesesgig2005@gmail.com</p>
+      <p>📱 โทรศัพท์: 064-784-3651</p>
+      <p>📍 จังหวัดอุดรธานี</p>
+    </section>
+
+    <section id="goal">
+      <h2>7. เป้าหมาย (Career Goal)</h2>
+      <p>ตั้งเป้าเป็น AI Engineer หรือ Data Scientist ในอนาคต</p>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2025 Student Portfolio | Designed with ❤️ for GitHub.io
+  </footer>
+
+</body>
+</html>
